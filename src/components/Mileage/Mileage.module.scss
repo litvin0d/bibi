@@ -1,0 +1,19 @@
+@import "../../scss/variables";
+
+.mileage {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 0;
+
+    input {
+        border: 2px solid $blue;
+        border-radius: 5px;
+        padding: 4px 8px;
+    }
+}
+
+.icon {
+    cursor: pointer;
+}
+
